@@ -13,7 +13,7 @@ class LoginPage(PageFactory):
     }
 
     def login(self):
-        self.inptLogin.set_text("allan.neri")
-        self.inptPassword.set_text("allan@mudar")
+        self.inptLogin.set_text("allan")
+        self.inptPassword.set_text("123")
         self.btnLogin.click_button()
 
